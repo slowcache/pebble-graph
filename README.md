@@ -14,7 +14,3 @@ cd examples/line
 pebble build
 pebble install --emulator basalt
 ```
-## Known issues
-
-- This project was not built for round devices, so information will be hidden on those devices
-- Devices that don't support colors could hide information if light colors are chosen on the graph
