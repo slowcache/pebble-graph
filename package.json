@@ -1,0 +1,27 @@
+{
+  "name": "pebble-graph",
+  "author": "slowcache",
+  "version": "1.0.0",
+  "files": ["dist.zip"],
+  "keywords": ["pebble-package", "graph"],
+  "dependencies": {},
+  "pebble": {
+    "projectType": "package",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "resources": {
+      "media": []
+    },
+    "repository": "https://github.com/slowcache/pebble-graph",
+    "license": "BSD 3-Clause",
+    "description": "A minimal graphing library for the pebble watch os"
+  }
+}
