@@ -1,6 +1,6 @@
 #include <pebble.h>
 
-#include "pebble-graph.h"
+#include "pebble-graph/pebble-graph.h"
 
 static Window* example_window;
 
