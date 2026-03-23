@@ -129,7 +129,7 @@ void pebble_graph_destroy(Graph* graph) {
   text_layer_destroy(pebbleGraph_title_textLayer);
   pebbleGraph_title_textLayer = NULL;
 
-  for (int i = 0; i < 4; ++i) {
+  for (int i = 0; i < PEBBLE_GRAPH_Y_AXIS_LABELS; ++i) {
     text_layer_destroy(pebbleGraph_yValue_textLayers[i]);
     pebbleGraph_yValue_textLayers[i] = NULL;
   }
